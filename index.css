@@ -1,0 +1,177 @@
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* @media*/
+header{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+#main{
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px 5px #dddddd;
+}
+
+#introp{
+    width: 420px;
+    height: 175px;
+    position: absolute;
+    top:205px;
+    left: 240px;
+    /* border:1px solid red; */
+    
+
+}
+
+#sign{
+    width: 430px;
+    height: 475px;
+    position: absolute; 
+    top:81px;
+    left: 650px;
+    box-shadow: 5px 5px 10px 5px #dddddd;
+    
+}
+
+#imglogo{
+    width: 77.33px;
+    height: 80px;
+}
+
+
+#firstN{
+    display: flex;
+    flex-direction:column;
+    width: 200px;
+    padding: 20px;
+    
+}
+
+#LastN{
+    display:flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+}
+
+#x1{
+    display:flex;
+    justify-content: space-between;
+}
+
+#gen{
+    display: flex;
+    flex-direction:column;
+    width: 150px;
+    position: relative;
+    left: -13px; 
+
+}
+
+#dob1{
+    display:flex;
+    flex-direction: column;  
+    width: 150px;
+    position: relative;
+    left: 1px; 
+}
+
+#x2{
+    display:flex;
+   justify-content:space-around;   
+
+}
+
+#weit{
+    display: flex;
+    flex-direction:column;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    left:-10px;
+}
+
+#heit{
+    display:flex;
+    flex-direction: column;  
+    width: 200px;
+    padding: 20px;
+    
+}
+
+#x3{
+    display:flex;
+   justify-content:space-around;   
+}
+
+#act{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width: 400px;
+    padding: 5px;
+    position: relative;
+    left: 15px;
+}
+
+#pas{
+    display:flex;
+    flex-direction: column;  
+    justify-content:space-around;
+    width: 410px;
+    padding: 10px;
+    position: relative;
+    left: 8px;
+}
+
+#x4{
+    display:flex;
+  justify-content:space-around;
+}
+
+#x5{
+    display:flex;
+    flex-direction: column;
+    width: 410px;
+    padding: 10px;
+    position: relative;
+    left: 8px;
+    
+
+}
+
+#reg{
+    background-color: #2EC4B6;
+    height: 50px;
+    border: 2px solid #2EC4B6;
+    font-size: 14px;
+    font-weight: bold;
+    color: White;
+}
+
+#f1{
+    width: 420px;
+    padding: 10px;
+    font-size: 11px;
+    text-align: center;
+}
+
+ @media (max-width: 300px){
+    #introp{
+        display: none;
+    }
+
+    #sign{
+        display: inline;
+    }
+}
